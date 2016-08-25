@@ -1,0 +1,20 @@
+{
+  "name": "word-search",
+  "version": "1.0.0",
+  "description": "Word search",
+  "main": "word-search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nashville-software-school/node-foundations-mastery-exercise.git"
+  },
+  "keywords": [],
+  "author": "Scott Humphries <npm@sscotth.io> (https://sscotth.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nashville-software-school/node-foundations-mastery-exercise/issues"
+  },
+  "homepage": "https://github.com/nashville-software-school/node-foundations-mastery-exercise#readme"
+}
