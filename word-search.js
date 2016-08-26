@@ -12,8 +12,9 @@ let file = fs.createReadStream('/usr/share/dict/words')
 	 if (buffer.toString().startsWith((process.argv[2].toString()).toLowerCase())) {
 	 	let rightWord = (buffer.toString())
   		callback(null, buffer.toString() + '\n')
-		} 
+		} else {
 		callback()
+	}
   	})	
 ) 
 

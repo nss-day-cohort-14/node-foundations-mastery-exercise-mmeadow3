@@ -4,11 +4,17 @@ const { Transform } = require("stream");
 
 
 const transformer = Transform()
+
+counter = 0
 transformer._transform = (buff, enc, cb) => {
-
-
-	
-  cb(null, buff.toString())
+	if (counter < 10){
+		counter++;
+	cb(null, `${buff.toString()}\n`)
+	} else {
+		cb()
+	}
 }
 
 module.exports = transformer
+
+
